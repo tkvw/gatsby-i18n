@@ -1,0 +1,24 @@
+{
+  "name": "@tkvw/gatsby-i18n-plugin",
+  "version": "1.0.0",
+  "description": "Gatsby i18n plugin",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.build.json",
+    "test": "jest",
+    "clean": "trash dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "gatsby": "^2.15.28"
+  }
+}

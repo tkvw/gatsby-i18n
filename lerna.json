@@ -1,0 +1,14 @@
+{
+  "packages": ["packages/*"],
+  "command": {
+    "create": {
+      "access": "public"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "message": "chore: release %s"
+    }
+  },
+  "version": "0.0.0"
+}
